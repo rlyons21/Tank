@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'gallery/gallery'
+  get 'gallery' => 'gallery#gallery'
 
   root 'home#index'
 
