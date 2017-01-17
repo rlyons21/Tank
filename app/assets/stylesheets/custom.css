@@ -4,12 +4,11 @@
 }
 
 .thumbnail img{
-    width: auto;
-    height: 100%;
-    display: block;
+	height:100%;
+    object-fit: fill;
 }
 
-.thumbnail{        
+.thumbnail{       
     width: 200px; 
     height: 200px;
     overflow: hidden;
