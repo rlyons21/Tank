@@ -6,8 +6,11 @@ window.addEventListener("load", function(){
 
 	for(i=0; i < pictures.length; i++){
 		pictures[i].addEventListener("click", function(e){
-			var content = document.getElementsByClassName("modal-content");
+			var content = document.getElementById("modalImage");
+			var clicked = this.getAttribute("id");
 			
+			content.setAttribute("src", "assets/" + clicked);
+
 			
 		});
 	};
