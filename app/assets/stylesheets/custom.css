@@ -17,3 +17,14 @@
 #modalImage{
 	max-height: 600px;
 }
+
+.modal-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black !important;
+}
+
+.modal-dialog{
+	background-color: black;
+}
